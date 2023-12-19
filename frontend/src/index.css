@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.login {
+    min-height: 100vh;
+  }
+  
+.bg-image {
+    background-image: url("./assets/Group_299.png");
+    background-size: cover;
+    background-position: center;
+  }
+  
+.login-heading {
+    color: #000;
+    font-family: Manrope;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 56px;
+  }
+
+.login label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+.login label span {
+    color: #CB001E;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .login input {
+    color: rgba(0, 0, 0, 0.30);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .login .btn {
+    border-radius: 50px;
+    background: #CB001E;
+  }
+
+.form__input{
+    width: 100%;
+    border:0px solid transparent;
+    border-radius: 0;
+    border-bottom: 1px solid #aaa;
+    outline:none;
+    transition: all .5s ease;
+  }
+
+.form__input:focus{
+    border-bottom-color: #008080;
+    box-shadow: 0 0 5px rgba(0,80,80,.4); 
+    border-radius: 4px;
+  }
+
+  .login a {
+    color: #CB001E;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+
+  .main-page {
+    background: #ADADAD;
+  }
+  .side-bar .logo img {
+    width: 39px;
+    margin: 35px;
+  }
+
+  .navbar {
+    height: 110px;
+    width: full;
+  }
+
+  .navbar .search input {
+    border-radius: 29px;
+    background: #F5F6FA;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .navbar .search .btn {
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 38px;
+    background: #CB001E;
+  }
+
+  .side-bar {
+    min-height: 100vh;
+  }
